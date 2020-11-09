@@ -1,2 +1,2 @@
 # Voronoi-tessellation
-This code performs a Voronoi 2D-binning algorithm on an input set of pixels. This is an implementation of the code by Michele Cappellari. A Python version of the code is also available at that URL.
+This code performs 2D and 3D Voronoi binning on an input set of coordinates and return the error-weighted average and median values measured within each Voronoi cell. This is an implementation of the code by Michele Cappellari (http://www-astro.physics.ox.ac.uk/~mxc/software/). The code works with individual coordinates rather than with regularly-spaced pixels, allowing its use in resolved stellar populations.
